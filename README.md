@@ -69,10 +69,3 @@ Queries were tested under three conditions to evaluate performance:
 Detailed query plans and benchmarks are included in the project report.
 
 ---
-
-## How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/DVD-Rental-Database.git
-   cd DVD-Rental-Database
