@@ -1,0 +1,15 @@
+COPY country FROM 'E:/UMD/Database Systems/project/Tables_data/country.csv' DELIMITER ',' CSV HEADER;
+COPY city FROM 'E:/UMD/Database Systems/project/Tables_data/city.csv' DELIMITER ',' CSV HEADER;
+COPY language FROM 'E:/UMD/Database Systems/project/Tables_data/language.csv' DELIMITER ',' CSV HEADER;
+COPY actor FROM 'E:/UMD/Database Systems/project/Tables_data/actor.csv' DELIMITER ',' CSV HEADER;
+COPY category FROM 'E:/UMD/Database Systems/project/Tables_data/category.csv' DELIMITER ',' CSV HEADER;
+COPY film FROM 'E:/UMD/Database Systems/project/Tables_data/film.csv' DELIMITER ',' CSV HEADER;
+COPY inventory FROM 'E:/UMD/Database Systems/project/Tables_data/inventory.csv' DELIMITER ',' CSV HEADER;
+COPY address FROM 'E:/UMD/Database Systems/project/Tables_data/address.csv' DELIMITER ',' CSV HEADER;
+COPY staff FROM 'E:/UMD/Database Systems/project/Tables_data/staff.csv' DELIMITER ',' CSV HEADER;
+COPY store FROM 'E:/UMD/Database Systems/project/Tables_data/store.csv' DELIMITER ',' CSV HEADER;
+COPY customer FROM 'E:/UMD/Database Systems/project/Tables_data/customer.csv' DELIMITER ',' CSV HEADER;
+COPY rental FROM 'E:/UMD/Database Systems/project/Tables_data/rental.csv' DELIMITER ',' CSV HEADER NULL AS 'NULL';
+COPY payment FROM 'E:/UMD/Database Systems/project/Tables_data/payment.csv' DELIMITER ',' CSV HEADER;
+COPY film_actor FROM 'E:/UMD/Database Systems/project/Tables_data/film_actor.csv' DELIMITER ',' CSV HEADER;
+COPY film_category FROM 'E:/UMD/Database Systems/project/Tables_data/film_category.csv' DELIMITER ',' CSV HEADER;
